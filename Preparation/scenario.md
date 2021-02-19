@@ -7,6 +7,7 @@ SOFTWARE PRO TAJEMNÍKA ÚSTAVU
 tajemník pracuje v excelu a je z toho špatný, dělá chyby a je to moc práce. chce aplikaci, která bude řídit vytíženost zaměstnanců ústavu a všechno se to udělá za něj, aby se mohl věnovat cestě meče.
 
 otázka: učitel učí všechno? štítek (skupina/počet studentů v předmětu) lze přidat libovolně komukoliv?
+studijní skupina má nějaké ID, aby byla identifikovatelná?
 
 1. existuje databáze zaměstananců (jméno, příjmení, tel1, tel2, email, je doktorand?, úvazek 0-1, kolik pracovních bodů zabírá výuka v ČJ/EN)
 2. existuje databáze předmětů (zkratka, název, poč.hod. přednášek, ph seminnářů, ph přednášek, ČJ/EN, typ studia, ročník, defaultni velikost skupiny)
