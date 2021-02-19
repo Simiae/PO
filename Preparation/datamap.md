@@ -28,6 +28,7 @@ studijniSkupina
 - rocnik /int)
 - pocetStudentu (int)
 - typStudia (string)
+- ID (string)
 
 stitek
 - id (string)
