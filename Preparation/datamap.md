@@ -17,7 +17,7 @@ predmet
 - phSeminaru (int)
 - phCviceni (int)
 - jazyk (string)
-- typStudia (string)
+- zpusobStudia (string) (P/K)
 - rocnik (int)
 - defVelikostSkupiny (int)
 
@@ -27,7 +27,8 @@ studijniSkupina
 - semestr (string)
 - rocnik /int)
 - pocetStudentu (int)
-- typStudia (string)
+- typStudia (string) (Bc/Mgr)
+- zpusobStudia (string)
 - ID (string)
 
 stitek
