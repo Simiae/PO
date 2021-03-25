@@ -15,6 +15,9 @@ namespace Tajemnik.Modely
         public int HodinySeminaru { get; set; }
         public enum ZpusobZakonceni { z, zk}
         public enum Jazyk { cz, en }
+        public int VelikostTridy { get; set; }
+        public List<SkupinkaModel> SeznamSkupin { get; set; }
+
 
 
 

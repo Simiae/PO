@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modely\PracovniStitekModel.cs" />
     <Compile Include="Modely\PredmetModel.cs" />
     <Compile Include="Modely\SkupinkaModel.cs" />
+    <Compile Include="Modely\VahyPracovnichBoduModel.cs" />
+    <Compile Include="Modely\ZamestnanecModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
