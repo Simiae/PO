@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tajemnik.Modely
 {
-    class PredmetModel
+    public class PredmetModel
     {
         public string Zkratka { get; set; }
         public int PocetTydnu { get; set; }
@@ -16,7 +16,11 @@ namespace Tajemnik.Modely
         public enum ZpusobZakonceni { z, zk}
         public enum Jazyk { cz, en }
         public int VelikostTridy { get; set; }
-        public List<SkupinkaModel> SeznamSkupin { get; set; }
+        public List<SkupinkaModel> SeznamSkupin { get; set; } = new List<SkupinkaModel>();
+        public string NazevPredmetu { get; set; }               // bez vlivu na aplikaci
+        public int PocetKreditu { get; set; }               // bez vlivu na aplikaci
+        public enum GarantujiciUstav { UIUI }               // bez vlivu na aplikaci
+        public string JmenoGaranta { get; set; }               // bez vlivu na aplikaci
 
 
 

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tajemnik.Modely
 {
-    class ZamestnanecModel
+    public class ZamestnanecModel
     {
+        public int ID { get; set; }
         public string Jmeno { get; set; }
         public string Prijmeni { get; set; }
         public string CeleJmeno { get; set; }
@@ -15,6 +16,37 @@ namespace Tajemnik.Modely
         public string SoukromyEmail { get; set; }
         public bool Doktorand { get; set; }
         public double Uvazek { get; set; }
-        public List<PracovniStitek> SeznamStitku { get; set; }
+        public List<PracovniStitekModel> SeznamStitku { get; set; } = new List<PracovniStitekModel>();
+        public string PracovniTelefon { get; set; }
+        public string SoukromyTelefon { get; set; }
+
+
+        // metody
+        //public PracovniBodyBezAnglictiny()
+        //{
+
+        //}
+
+        //public PracovniBody()
+        //{
+
+        //}
+
+        //public ZamestnanecModel()
+        //{
+
+        //}
+
+        public ZamestnanecModel()
+        {
+
+        }
+
+        public ZamestnanecModel(string jmeno, string prijmeni)
+        {
+            Jmeno = jmeno;
+            Prijmeni = prijmeni;
+        }
+
     }
 }

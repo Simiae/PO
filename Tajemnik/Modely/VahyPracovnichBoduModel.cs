@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tajemnik.Modely
 {
-    class VahyPracovnichBoduModel
+    public class VahyPracovnichBoduModel
     {
         public double HodinaPrednasky { get; set; }
         public double HodinaCviceni { get; set; }

@@ -15,6 +15,8 @@ namespace Tajemnik.Modely
         public enum FormaStudia { P, K }
         public enum TypStudia { Bc, Mgr}
         public enum Jazyk { Cz, En }
+        public string Nazev { get; set; }
+        public List<PredmetModel> SeznamPredmetu { get; set; } = new List<PredmetModel>();
 
     }
 }
