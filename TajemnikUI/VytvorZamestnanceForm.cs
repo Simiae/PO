@@ -27,10 +27,7 @@ namespace TajemnikUI
                     jmenoTextBox.Text,
                     prijmeniTextBox.Text);
 
-                foreach (IDataConnection db in GlobalConfig.Connections)
-                {
-                    db.VytvorZamestnance(model);
-                }
+                GlobalConfig.Connection.VytvorZamestnance(model);
 
                 jmenoTextBox.Text = "";
                 prijmeniTextBox.Text = "";

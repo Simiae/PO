@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tajemnik;
 
 namespace TajemnikUI
 {
@@ -16,7 +17,7 @@ namespace TajemnikUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Tajemnik.GlobalConfig.InitializeConnections(true, true);
+            GlobalConfig.InitializeConnections(DatabaseType.Sql);
             Application.Run(new VytvorZamestnanceForm());
         }
     }
