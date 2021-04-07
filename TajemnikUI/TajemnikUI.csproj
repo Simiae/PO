@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="VytvorPredmetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VytvorPredmetForm.Designer.cs">
+      <DependentUpon>VytvorPredmetForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="VytvorZamestnanceForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VytvorPredmetForm.resx">
+      <DependentUpon>VytvorPredmetForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VytvorZamestnanceForm.resx">
       <DependentUpon>VytvorZamestnanceForm.cs</DependentUpon>
     </EmbeddedResource>

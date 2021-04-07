@@ -18,7 +18,8 @@ namespace TajemnikUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             GlobalConfig.InitializeConnections(DatabaseType.Sql);
-            Application.Run(new VytvorZamestnanceForm());
+            Application.Run(new VytvorPredmetForm());
+            //Application.Run(new VytvorZamestnanceForm());
         }
     }
 }

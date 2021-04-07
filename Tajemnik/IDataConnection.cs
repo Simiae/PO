@@ -10,5 +10,11 @@ namespace Tajemnik
     public interface IDataConnection
     {
         ZamestnanecModel VytvorZamestnance(ZamestnanecModel model);
+
+        List<ZamestnanecModel> GetZamestnanec_All();
+
+        PredmetModel VytvorPredmet(PredmetModel model);
+
+        List<PredmetModel> GetPredmet_All();
     }
 }

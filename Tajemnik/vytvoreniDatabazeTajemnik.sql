@@ -5,7 +5,7 @@ CREATE TABLE Zamestnanec
    ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
    Jmeno nvarchar(100),
    Prijmeni nvarchar(100),
-   CeleJmeno nvarchar (200),
+   -- CeleJmeno nvarchar (200),
    PracovniEmail nvarchar(100),
    SoukromyEmail nvarchar(100),
    Doktorand bit,
@@ -16,11 +16,11 @@ CREATE TABLE Zamestnanec
    rank integer not null default 1, 
    constraint fk_user_rank foreign key (rank) references user_rank (id)  */
 );
-insert into Zamestnanec (Jmeno, Prijmeni, CeleJmeno, PracovniEmail, SoukromyEmail, Doktorand, Uvazek, PracovniTelefon, SoukromyTelefon)
+insert into Zamestnanec (Jmeno, Prijmeni, PracovniEmail, SoukromyEmail, Doktorand, Uvazek, PracovniTelefon, SoukromyTelefon)
 
 values
-	('Pavel', 'Vaøacha', 'Pavel Vaøacha', 'varacha@utb.cz', 'cestamece@kendo.cz', 0, '0.5', '123123123', '777777777'),
-	('Jan', 'Novák', 'Jan Novák', 'novak@utb.cz', 'bezmece@kendo.cz', 0, '0.5', '555555555', '+420111555999');
+	('Pavel', 'Vaøacha', 'varacha@utb.cz', 'cestamece@kendo.cz', 0, '0.5', '123123123', '777777777'),
+	('Jan', 'Novák', 'novak@utb.cz', 'bezmece@kendo.cz', 0, '0.5', '555555555', '+420111555999');
 
 
 CREATE TABLE Skupinka
